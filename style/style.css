@@ -1,0 +1,15 @@
+/*------- benner--------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    display: flex;
+    /* width: 100%; */
+    background-color: yellow;
+    justify-content: space-between;
+}
+.banner img{
+    width: 500px;
+    height: 438px;
+}
