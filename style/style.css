@@ -1,15 +1,134 @@
-/*------- benner--------- */
+/*---------------
+        benner
+------------------------- */
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .banner{
     display: flex;
-    /* width: 100%; */
-    background-color: yellow;
-    justify-content: space-between;
+    background-color: rgb(56, 56, 184);
+    animation-name: example;
+    animation-duration: 6s;
 }
-.banner img{
+@keyframes example {
+   from {background-color: rgb(56, 56, 184);}
+   to {background-color: blue;}
+    
+}
+
+.half-width{
+    width: 50%;
+    padding: 5%;
+    padding-left: 10%;
+}
+
+.half-width h1{
+    
+    font-size: 50px;
+    color: white;
+}
+
+button{
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+    width: 168px;
+    height: 44px;
+    background-color: rgba(224, 44, 109, 1);
+}
+
+.watch{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px;
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+}
+
+.half-width img{
     width: 500px;
     height: 438px;
 }
+
+      /* ------------
+-          players
+        --------------- */
+
+main{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.play img{
+    /* margin-top: 20px; */
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+.play, h1, p{
+    margin: 20px;
+    
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 70px;
+    
+}
+
+.play{
+    width: 330px;
+    height: 474px;
+    background-color: white;
+    margin: 30px;
+}
+
+              /*///.........
+ ///        upper part of footer/
+        ---------///--------    */
+
+.info{
+    display: flex;
+}
+ .highlight{
+    width: 50%;
+    /* padding: 5%;
+    padding-left: 10%; */
+ }
+ .now{
+    /* border: 2px solid powderblue; */
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+ }
+ .highlight, h1{
+     /* padding-top: 100px; */
+ }
+ .highlight, video{
+    width: 567px;
+    /* height: 427px; */
+} 
+ 
+        /*-------------------- 
+                  footer 
+    ------------------------------ */
+
+#photo{
+    margin-top: 100px;
+    padding: 20px;
+    width: 483px;
+    height: 110px;
+}
+.icon2{
+    font-size: 100px;
+    background-color: rgba(150, 155, 171, 1);
+    display: flex;
+}
+
+        
