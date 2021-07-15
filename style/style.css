@@ -125,10 +125,48 @@ main{
     width: 483px;
     height: 110px;
 }
-.icon2{
-    font-size: 100px;
-    background-color: rgba(150, 155, 171, 1);
+.icon{
     display: flex;
+    /* color: chartreuse; */
+}
+.icon2{
+    color: rgba(150, 155, 171, 1);
+    padding-left: 150px;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    font-size: 40px;
+    /* background-color: rgba(150, 155, 171, 1); */
+    /* display: flex; */
+}
+.icon3{
+    color: rgba(150, 155, 171, 1);
+    padding-left: 20px;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    font-size: 40px;
+    /* background-color: rgba(150, 155, 171, 1); */
+    /* display: flex; */
+}
+.icon4{
+    color: rgba(150, 155, 171, 1);
+    padding-left: 10px;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    font-size: 40px;
+    /* background-color: rgba(150, 155, 171, 1); */
+    /* display: flex; */
+}
+.icon5{
+    color: rgba(150, 155, 171, 1);
+    padding-left: 10px;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    font-size: 40px;
+    /* background-color: rgba(150, 155, 171, 1); */
+    /* display: flex; */
+}
+footer{
+    font-size: 15px;
 }
 
         
